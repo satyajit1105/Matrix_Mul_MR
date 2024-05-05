@@ -5,4 +5,6 @@
    2.  cat *.txt | python3 mapper.py  <br>
    3.  cat *.txt | python3 reducer.py <br>
    4.  cat *.txt | python3 mapper.py | python3 reducer.py <br></p>
-
+<h1>3.Give necessary permissions to mapper.py and reducer.py.</h1>
+<p>1. chmod 777 mapper.py reducer.py <br>
+   2. ls -la </p>
