@@ -9,5 +9,8 @@
 <p>1. chmod 777 mapper.py reducer.py <br>
    2. ls -la </p>
 <h1>Start hadoop services </h1>
-<p>1. start-all.sh
-</p>
+<p>1. start-all.sh</p>
+<h1>Create a directory named Mat_Py over hdfs and copy the input matrices into it.</h1>
+<p> 1. hadoop fs -mkdir /Mat_Py<br>
+    2. hadoop fs -copyFromLocal /home/satya1105/MM_Py/matrix1.txt /Mat_Py<br>
+    3. hadoop fs -copyFromLocal /home/satya1105/MM_Py/matrix2.txt /Mat_Py</p>
