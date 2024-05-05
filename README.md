@@ -17,3 +17,5 @@
 <h1>6.Create a jar file[hadoop version specific]</h1>
 <p>1. /home/satya1105/hadoop/bin/hadoop jar /home/satya1105/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.4.0.jar     -mapper "python3 /home/satya1105/MM_Py/mapper.py"     -reducer "python3 /home/satya1105/MM_Py/reducer.py"     -input /Mat_Py     -output /Mat_Py/out_mat/
  </p>
+<h>7. Check output</h>
+<p> hadoop fs -cat /Mat_Py/out_mat/part-00000</p>
